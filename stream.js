@@ -10,7 +10,8 @@ const config = {
     },
     http: {
         port: 8000,
-        allow_origin: '*'
+        allow_origin: '*',
+        webroot: './public'
     },
     
 };
