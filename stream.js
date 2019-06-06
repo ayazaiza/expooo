@@ -13,6 +13,11 @@ const config = {
         allow_origin: '*',
         webroot: './public'
     },
+     https: {
+         port: 8443,
+         key: './privatekey.pem',
+         cert: './certificate.pem',
+     }
     
 };
 
